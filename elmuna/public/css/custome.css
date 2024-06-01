@@ -1,0 +1,191 @@
+* {
+    font-family: "Poppins", "sans-serif";
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 7%;
+    background-color: rgba(210, 104, 29, 0.8);
+    border-bottom: 1px solid #e4e1dee0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+/* .navbar .navbar-nav a {
+    color: white;
+    text-decoration: none;
+} */
+/* .badge {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    padding: 2px 5px;
+    border-radius: 50%;
+    font-size: 10px;
+} */
+
+.mainuser {
+    background-color: rgb(238, 234, 231);
+    /* background-image: url("asset/img/cap-bg.png"); */
+    /* background: cover; */
+    min-height: 100vh;
+    overflow: hidden;
+}
+/* .icon-nav {
+    position: relative;
+    color: #ffffff8c;
+}
+.icon-nav:hover {
+    color: white;
+} */
+.breadcrumb-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.breadcrumb-section > checkout {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.text-links {
+    cursor: pointer;
+}
+
+.links-login {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #dee0e0e0;
+    padding: 10px;
+    width: 200px;
+    z-index: 9999;
+    border-radius: 10px;
+    visibility: hidden;
+}
+
+.activeLogin {
+    visibility: visible;
+    opacity: 1;
+}
+
+.links-login > a:hover {
+    color: #fa9191;
+}
+
+.links-login > a {
+    color: #fff;
+}
+
+.circle {
+    position: absolute;
+    top: -5px;
+    right: 7px;
+    border-radius: 50%;
+    background-color: rgba(249, 32, 32, 0.86);
+    color: white;
+    font-size: 11px;
+    padding: 2px 9px;
+}
+.notif {
+    position: relative;
+    display: inline-block;
+}
+.fa-bag-shopping {
+    font-size: 24px;
+    color: rgba(249, 249, 249, 0.686);
+}
+.fa-bag-shopping:hover {
+    color: rgba(255, 255, 255, 0.867);
+}
+
+/* hero section */
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+
+section {
+    min-height: 100vh;
+}
+
+/* Style Footer */
+footer {
+    position: static;
+    bottom: 0;
+    background-color: rgb(210, 104, 29);
+    color: white;
+}
+
+/* sidebar */
+.sidebar {
+    position: fixed;
+    width: 250px;
+    height: 97vh;
+}
+.sidebar a {
+    text-decoration: none;
+    color: white;
+}
+.sidebar li {
+    list-style: none;
+    padding: 10px 5px;
+}
+.sidebar li:hover {
+    background-color: rgba(217, 217, 217, 0.518);
+    border-radius: 10px;
+    margin: 0;
+}
+.sidebar h5 {
+    font-size: 24px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+}
+.checkbox-custom {
+    transform: scale(1.5); /* Menyesuaikan ukuran checkbox */
+}
+/* .carousel-slide {
+    background-image: url("assets/img/hero-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+} */
+
+/* media Queries */
+
+/* Laptop */
+
+@media (max-width: 1366px) {
+    html {
+        font-size: 90%;
+    }
+}
+
+/* Tablet */
+
+/* @media (max-width: 768px) {
+    html {
+        font-size: 62.5%;
+    }
+} */
+
+/* Handphone */
+
+@media (max-width: 450px) {
+    html {
+        font-size: 55%;
+    }
+}
